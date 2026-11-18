@@ -64,13 +64,51 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-loreboard-ink is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
+Loreboard is a community‑driven directory of Lorcana resources, offering organized listings of tools, deck‑builders, price trackers, event guides, and collector utilities. The site aggregates verified third‑party services, provides editorial policies, and helps players discover places to play, buy cards, and improve their game. It also hosts guides on deck building, collection tracking, and tournament preparation, serving both newcomers and competitive players.
 
-**Areas:** Company
+**Areas:** Community · Gaming · Directory · Lorcana · Resources
 
 ## Loreboard on APIs.io
 
 Everything profiled for Loreboard is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/loreboard-ink/](https://apis.io/providers/loreboard-ink/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Loreboard Data API](https://apis.io/apis/loreboard-ink/loreboard-ink-data-api/) — The Data API from Loreboard — 4 operation(s) for data.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Loreboard Agentic Access](https://apis.io/agentic-access/loreboard-ink/loreboard-ink-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [PublicResource](https://apis.io/schemas/loreboard-ink/loreboard-ink-public-resource/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Loreboard Ink Context](https://apis.io/jsonld/loreboard-ink/loreboard-ink-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Loreboard API Rules](https://apis.io/rules/loreboard-ink/loreboard-ink-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Loreboard Domain Security](https://apis.io/security/loreboard-ink/loreboard-ink-domain-security/)
 
 ## Where to find this API
 
@@ -78,12 +116,53 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://loreboard.ink/)
 - [Documentation](https://loreboard.ink/guides)
+- [Getting started](https://loreboard.ink/collections/lorcana-getting-started-and-official-play-products)
 - [Support](https://loreboard.ink/help)
 - [Privacy policy](https://loreboard.ink/data-terms)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/loreboard-ink/](https://apis.io/providers/loreboard-ink/).
+**Kin Score 35.2** — thin · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 47.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 32.6 |
+| Access clarity | 8.5 |
+
+**Agent readiness 30.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 8.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/loreboard-ink/](https://apis.io/providers/loreboard-ink/).
 
 ## How this profile is made
 
